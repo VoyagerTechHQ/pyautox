@@ -171,3 +171,5 @@ Temporary Items
 *.jpg
 *.jpeg
 !docs/images/*
+
+docs/claude/*
