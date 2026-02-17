@@ -1,4 +1,4 @@
-"""Platform backends for AutoGUI-X."""
+"""Platform backends for PyAutoX."""
 
 from pyautox.backends.macos_backend import MacOSBackend
 

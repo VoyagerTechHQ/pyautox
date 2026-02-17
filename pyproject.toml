@@ -2,7 +2,7 @@
 name = "pyautox"
 version = "0.1.0"
 description = "Modern macOS GUI automation library for Python"
-authors = [{name = "AutoGUI-X Contributors"}]
+authors = [{name = "PyAutoX Contributors"}]
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "BSD-3-Clause"}
@@ -42,10 +42,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/YOUR_USERNAME/pyautox"
-Documentation = "https://github.com/YOUR_USERNAME/pyautox#readme"
-Repository = "https://github.com/YOUR_USERNAME/pyautox"
-Issues = "https://github.com/YOUR_USERNAME/pyautox/issues"
+Homepage = "https://github.com/VoyagerTechHQ/pyautox"
+Documentation = "https://github.com/VoyagerTechHQ/pyautox#readme"
+Repository = "https://github.com/VoyagerTechHQ/pyautox"
+Issues = "https://github.com/VoyagerTechHQ/pyautox/issues"
 
 [build-system]
 requires = ["hatchling"]

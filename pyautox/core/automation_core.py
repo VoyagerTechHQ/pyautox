@@ -38,7 +38,7 @@ class AutomationCore:
     def _ensure_initialized(self) -> BackendBase:
         if not self._initialized or self._backend is None:
             raise RuntimeError(
-                "AutoGUI-X is not initialized. Call pyautox.init() first."
+                "PyAutoX is not initialized. Call pyautox.init() first."
             )
         return self._backend
 
@@ -50,7 +50,7 @@ class AutomationCore:
             return
         if sys.platform != "darwin":
             raise OSError(
-                f"AutoGUI-X currently only supports macOS, got platform={sys.platform!r}"
+                f"PyAutoX currently only supports macOS, got platform={sys.platform!r}"
             )
         from pyautox.backends.macos_backend import MacOSBackend
 

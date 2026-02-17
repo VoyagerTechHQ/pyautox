@@ -1,5 +1,5 @@
 """
-AutoGUI-X: Modern macOS GUI Automation for Python
+PyAutoX: Modern macOS GUI Automation for Python
 
 A fast, reliable, and modern GUI automation library specifically designed for macOS.
 Compatible with PyAutoGUI's API.
@@ -13,7 +13,7 @@ from pyautox.core.automation_core import AutomationCore
 from pyautox.core.types import LocateMode, MouseButton, Point, Region, Size
 
 __version__ = "0.1.0"
-__author__ = "AutoGUI-X Contributors"
+__author__ = "PyAutoX Contributors"
 __license__ = "BSD-3-Clause"
 
 # PyAutoGUI-compatible globals
@@ -29,7 +29,7 @@ _core = AutomationCore()
 
 
 def init() -> None:
-    """Initialize AutoGUI-X. Must be called before any other function."""
+    """Initialize PyAutoX. Must be called before any other function."""
     _core.init()
 
 

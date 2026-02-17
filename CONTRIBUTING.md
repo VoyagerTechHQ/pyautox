@@ -1,12 +1,12 @@
-# Contributing to AutoGUI-X
+# Contributing to PyAutoX
 
-Thank you for your interest in contributing to AutoGUI-X! This document provides guidelines and instructions for contributing.
+Thank you for your interest in contributing to PyAutoX! This document provides guidelines and instructions for contributing.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.10+
 - macOS 10.14+
 - uv (recommended) or pip
 - Git
@@ -15,8 +15,8 @@ Thank you for your interest in contributing to AutoGUI-X! This document provides
 
 ```bash
 # Fork and clone the repository
-git clone https://github.com/YOUR_USERNAME/autoguix.git
-cd autoguix
+git clone https://github.com/VoyagerTechHQ/pyautox.git
+cd pyautox
 
 # Create virtual environment
 uv venv
@@ -29,7 +29,7 @@ uv pip install -e ".[locate,dev]"
 pytest
 ```
 
-## 📝 Development Workflow
+## Development Workflow
 
 ### 1. Create a Branch
 
@@ -55,17 +55,17 @@ pytest
 pytest tests/test_core.py
 
 # Run with coverage
-pytest --cov=autoguix
+pytest --cov=pyautox
 ```
 
 ### 4. Format Code
 
 ```bash
 # Format with black
-black autoguix tests
+black pyautox tests
 
 # Lint with ruff
-ruff check autoguix tests
+ruff check pyautox tests
 ```
 
 ### 5. Commit Changes
@@ -93,7 +93,7 @@ git push origin feature/your-feature-name
 
 Then create a Pull Request on GitHub.
 
-## 📚 Code Guidelines
+## Code Guidelines
 
 ### Python Style
 
@@ -107,12 +107,12 @@ Then create a Pull Request on GitHub.
 ```python
 async def move_mouse(self, x: int, y: int, duration: float = 0.0) -> None:
     """Move mouse to specified coordinates.
-    
+
     Args:
         x: X coordinate
         y: Y coordinate
         duration: Time to complete the movement in seconds
-        
+
     Raises:
         ValueError: If coordinates are out of screen bounds
     """
@@ -127,11 +127,11 @@ async def move_mouse(self, x: int, y: int, duration: float = 0.0) -> None:
 - Use pytest fixtures for common setup
 - Test both sync and async versions of functions
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
-autoguix/
-├── autoguix/           # Main package
+pyautox/
+├── pyautox/            # Main package
 │   ├── __init__.py     # User API
 │   ├── core/           # Core logic
 │   │   ├── automation_core.py
@@ -144,7 +144,7 @@ autoguix/
 └── docs/               # Documentation
 ```
 
-## 🐛 Reporting Bugs
+## Reporting Bugs
 
 When reporting bugs, please include:
 
@@ -155,9 +155,9 @@ When reporting bugs, please include:
 5. **Environment**:
    - macOS version
    - Python version
-   - AutoGUI-X version
+   - PyAutoX version
 
-## 💡 Suggesting Features
+## Suggesting Features
 
 Feature requests are welcome! Please include:
 
@@ -165,10 +165,10 @@ Feature requests are welcome! Please include:
 2. **Proposed Solution**: How you think it should work
 3. **Alternatives**: Any alternative solutions you've considered
 
-## 📄 License
+## License
 
 By contributing, you agree that your contributions will be licensed under the BSD 3-Clause License.
 
-## 🙏 Thank You!
+## Thank You!
 
-Your contributions make AutoGUI-X better for everyone. Thank you for taking the time to contribute!
+Your contributions make PyAutoX better for everyone. Thank you for taking the time to contribute!

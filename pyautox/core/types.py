@@ -1,4 +1,4 @@
-"""Core data types for AutoGUI-X."""
+"""Core data types for PyAutoX."""
 
 from enum import Enum
 from typing import NamedTuple

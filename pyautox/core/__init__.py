@@ -1,4 +1,4 @@
-"""Core module for AutoGUI-X."""
+"""Core module for PyAutoX."""
 
 from pyautox.core.automation_core import AutomationCore
 from pyautox.core.backend_base import BackendBase
