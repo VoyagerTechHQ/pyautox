@@ -116,7 +116,9 @@ class MacOSBackend(BackendBase):
             cg.kCGWindowImageDefault,
         )
         if image_ref is None:
-            raise RuntimeError("Failed to capture screenshot (CGWindowListCreateImage returned None)")
+            raise RuntimeError(
+                "Failed to capture screenshot (CGWindowListCreateImage returned None)"
+            )
 
         width = cg.CGImageGetWidth(image_ref)
         height = cg.CGImageGetHeight(image_ref)

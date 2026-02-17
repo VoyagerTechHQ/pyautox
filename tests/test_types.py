@@ -46,8 +46,8 @@ class TestRegion:
         assert r.height == 200
 
     def test_tuple_unpacking(self):
-        l, t, w, h = Region(1, 2, 3, 4)
-        assert (l, t, w, h) == (1, 2, 3, 4)
+        left, top, w, h = Region(1, 2, 3, 4)
+        assert (left, top, w, h) == (1, 2, 3, 4)
 
 
 class TestMouseButton:

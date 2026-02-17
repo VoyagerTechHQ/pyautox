@@ -1,7 +1,7 @@
 """Abstract base class for platform backends."""
 
 from abc import ABC, abstractmethod
-from typing import List, Optional, Tuple
+from typing import List, Optional
 
 from PIL import Image
 

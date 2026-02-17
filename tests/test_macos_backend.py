@@ -4,13 +4,12 @@ These tests mock the Quartz CoreGraphics module so they can run
 on any platform without requiring PyObjC.
 """
 
-import sys
-from types import ModuleType, SimpleNamespace
-from unittest.mock import MagicMock, patch
+from types import SimpleNamespace
+from unittest.mock import MagicMock
 
 import pytest
 
-from pyautox.core.types import MouseButton, Point, Region, Size
+from pyautox.core.types import MouseButton, Point, Size
 
 
 def _make_mock_cg():
